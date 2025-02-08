@@ -1,0 +1,103 @@
+body 
+{
+    background-color: rgb(26, 26, 26);  
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+}
+
+.inter-title {
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 46px;
+    color: aliceblue;
+}
+
+header
+{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+header img 
+{
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+header h1
+{
+    font-size: 24px;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+}
+
+
+.info
+{
+    max-width: 640px;
+    display:block;
+    align-items: center;
+}
+
+.info h2
+{
+    font-size: 24px;
+}
+
+.denuncia {
+    margin: 20px 0;
+    padding: 15px;
+    border: 2px solid #494949;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 640px;
+    color: black;
+}
+
+details {
+    font-size: 16px;
+}
+
+summary {
+    font-size: 18px;
+    font-weight: bold;
+    color: #001327;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f0f8ff;
+    border-radius: 6px;
+    outline: none;
+}
+
+summary::marker {
+    font-size: 20px;
+    transition: transform 0.3s ease;
+}
+
+details[open] summary::marker {
+    transform: rotate(90deg);
+}
+
+details p {
+    padding: 10px;
+    background-color: #fafafa;
+    border-left: 4px solid #000000;
+    margin-top: 10px;
+}
